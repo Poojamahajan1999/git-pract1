@@ -1,0 +1,48 @@
+
+ADMIN@DESKTOP-35UU1KB MINGW64 ~/Desktop/pooja (master)
+$ git init
+Reinitialized existing Git repository in C:/Users/ADMIN/Desktop/pooja/.git/
+
+ADMIN@DESKTOP-35UU1KB MINGW64 ~/Desktop/pooja (master)
+$ touch poo.txt
+
+
+
+ADMIN@DESKTOP-35UU1KB MINGW64 ~/Desktop/pooja (master)
+$ git add --a
+
+ADMIN@DESKTOP-35UU1KB MINGW64 ~/Desktop/pooja (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   New Text Document.txt
+        new file:   git practical2.txt
+        new file:   git-pract1
+        new file:   html.html
+        new file:   poo.txt
+
+
+ADMIN@DESKTOP-35UU1KB MINGW64 ~/Desktop/pooja (master)
+$ git commit -m "hello"
+[master (root-commit) ccbc9c8] hello
+ 5 files changed, 48 insertions(+)
+ create mode 100644 New Text Document.txt
+ create mode 100644 git practical2.txt
+ create mode 160000 git-pract1
+ create mode 100644 html.html
+ create mode 100644 poo.txt
+
+ADMIN@DESKTOP-35UU1KB MINGW64 ~/Desktop/pooja (master)
+$ git log
+commit ccbc9c8ae77453b3e13fcb587abdc73dc7fd5e78 (HEAD -> master)
+Author: pooja <poojapatil241199@gmail.com>
+Date:   Wed Jun 29 15:18:13 2022 +0530
+
+    hello
+
+ADMIN@DESKTOP-35UU1KB MINGW64 ~/Desktop/pooja (master)
+$
