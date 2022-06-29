@@ -1,0 +1,35 @@
+ADMIN@DESKTOP-35UU1KB MINGW64 ~/Desktop/pooja
+$ git config --global user.name "pooja"
+
+ADMIN@DESKTOP-35UU1KB MINGW64 ~/Desktop/pooja
+$ git config --global user.name
+pooja
+
+ADMIN@DESKTOP-35UU1KB MINGW64 ~/Desktop/pooja
+$ git config --global user.email"poojapatil241199@gmail.com"
+
+ADMIN@DESKTOP-35UU1KB MINGW64 ~/Desktop/pooja
+$ git config --global user.email
+aakashchavhan642@gmail.com
+
+ADMIN@DESKTOP-35UU1KB MINGW64 ~/Desktop/pooja
+$ git config --global user.email "poojapatil241199@gmail.com"
+
+ADMIN@DESKTOP-35UU1KB MINGW64 ~/Desktop/pooja
+$ git config --global user.email
+poojapatil241199@gmail.com
+
+
+ADMIN@DESKTOP-35UU1KB MINGW64 ~/Desktop/pooja
+$ git init
+Initialized empty Git repository in C:/Users/ADMIN/Desktop/pooja/.git/
+
+ADMIN@DESKTOP-35UU1KB MINGW64 ~/Desktop/pooja (master)
+$  git clone https://github.com/Poojamahajan1999/git-pract1.git
+Cloning into 'git-pract1'...
+remote: Enumerating objects: 3, done.
+remote: Counting objects: 100% (3/3), done.
+remote: Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+Receiving objects: 100% (3/3), done.
+
+ADMIN@DESKTOP-35UU1KB MINGW64 ~/Desktop/pooja (master)
